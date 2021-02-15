@@ -1,0 +1,80 @@
+ html {
+  font-size: 65%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+ text-align: center;
+}
+
+.image {
+  border: 2px solid black;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ ul {
+   font-size: 2rem;
+ }
+
+li {
+ display: inline;
+ padding: 1em;
+ }
+
+ .listImage {
+   width: 3rem;
+   height: 4rem;
+ }
+
+ .strike {
+   text-decoration: line-through;
+ }
+
+ .circle {
+   width: 30px;
+   height: 30px;
+   border: 5px solid red;
+   border-radius: 50%;
+   position: absolute;
+ }
+
+ /* FOR POP UP DIV */
+ .popup {
+   width: 120px;
+   border: 1px solid black;
+   background-color: gray;
+   position: absolute;
+ }
+
+ .delete {
+   display: none;
+ }
+
+ .list {
+   font-size: 1.5rem;
+   text-align: left;
+   padding: 0;
+   margin: 0;
+ }
+
+ .item {
+   display: block;
+   padding: 10px;
+   background-color: gray;
+ }
+
+ .item:first-child {
+   border-bottom: 1px solid black;
+ }
+
+ .item:hover {
+   background-color: rgb(77, 77, 77);
+ }
